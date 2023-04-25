@@ -1,0 +1,31 @@
+.centro {
+    text-align: center;
+}
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    color: #e2e2e2f8;S
+}
+p {
+    font-family: 'Inter', sans-serif;
+}
+#grey {
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.774);
+      }
+body {
+    background-color: #cecece;;
+}
+#foto {
+    border-radius: 5%;
+}
+.botao {
+    padding: 12px 12px;
+    background-color: green;
+    border-radius: 5px;
+    color: #e2e2e2f8;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
