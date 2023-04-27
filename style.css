@@ -4,8 +4,8 @@ body {
 
 .topo {
     font-family: 'Noto Sans', sans-serif;
-    color: rgba(255, 255, 255, 0.849);
-    background-color: rgba(0, 0, 0, 0.664);
+    color: rgba(255, 255, 255, 0.966);
+    background: inherit;
     width: 400px;
     text-align: center;
     margin-left: auto;
@@ -16,7 +16,8 @@ body {
     box-shadow: 1px 1px 4px #ffffff
 }
 .corpo {
-    background-color: white;
+    
+    background-color: #ffffffe8;
     width: 900px;
     height: 400px;
     margin-left: auto;
@@ -43,7 +44,7 @@ p {
    display: inline-block;
    position: absolute;
    margin-top: 100px;
-   margin-left: 4%;
+   margin-left: 3%;
    text-align: justify;
    width: 450px;
 }
