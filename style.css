@@ -4,14 +4,17 @@ body {
 
 .topo {
     font-family: 'Noto Sans', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 400px;
     text-align: center;
-    font-size: 20px;
-    padding: 1px;
-    border-radius: 10px;
-    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 1px 1px 4px #ffffff
 }
-
 .corpo {
     background-color: white;
     width: 900px;
