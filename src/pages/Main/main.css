@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-Light {
+  background-color: white;
+}
+
+.main-Dark {
+  background-color: black;
+}
+
+.content {
+  background-color: white;
+}
+
+.main-Light hr {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-Dark hr {
+  color: rgb(134, 134, 134);
+  padding: 0px;
+  margin: 0px;
+}

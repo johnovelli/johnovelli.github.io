@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  background-color: #262A2B;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  width: auto;
+}
+
+.header-top-btns {
+  align-items: center;
+  display: flex;
+  border: solid 2px green;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.header-top-btns button {
+  margin-right: 10px;
+}
+
+.languages {
+  margin-left: 10px;
+}
+
+.btns {
+  align-items: center;
+  display: flex;
+}
+
+.btns button {
+  height: 20px;
+}
+
+.header-bottom {
+  border: solid 2px green;
+  display: flex;
+  height: 80px;
+  margin: auto;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.header-bottom-Dark {
+  color: white;
+}
+
+.header-bot-name {
+  align-items: center;
+  border: solid 2px green;
+  display: flex;
+  height: 80px;
+  font-size: 39px;
+  text-align: center;
+  width: 200px;
+}
+
+.header-bot-nav {
+  align-items: center;
+  display: flex;
+  border: solid 2px green;
+  height: 80px;
+  margin-right: 10px;
+  justify-content: end;
+  width: 600px;
+}
+
+.header-bot-nav-link {
+  font-size: 24px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.header-bot-nav-link:visited {
+  color: black;
+}
+
+.link-Dark {
+  color: white;
+}
+
+.link-Dark:visited {
+  color: white;
+}
+
+.fb_btn {
+  height: 30px;
+  margin-right: 7px;
+}
+
+.insta_btn {
+  height: 33px;
+  margin-right: 7px;
+}
+
+.whats_btn {
+  height: 33px;
+  margin-right: 12px;
+}
+
+.email_btn {
+  height: 31.5px;
+  margin-right: 13px;
+}
