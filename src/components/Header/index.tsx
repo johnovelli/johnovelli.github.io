@@ -10,34 +10,30 @@ type HeaderProps = {
   theme: string;
   language: string;
   toggleTheme: () => void;
-  toggleLanguage: () => void;
+  toggleLanguage: (language: 'Pt_br' | 'Eng_us') => void;
 }
 
 function Header({ theme, language, toggleTheme, toggleLanguage }: HeaderProps) {
-
-  useEffect(() => {
-    console.log(language);
-  }, [language])
-
   return (
     <div className={`header ${theme}`}>
       <div className='header-top'>
         <div className='header-top-btns'>
           <div className='languages'>
-            <button onClick={toggleLanguage}>Pt</button>
-            <button onClick={toggleLanguage}>En</button>
+            <button onClick={() => toggleLanguage('Pt_br')}>Pt</button>
+            <button onClick={() => toggleLanguage('Eng_us')}>En</button>
           </div>
           <div className='btns'>
             <img className='fb_btn' src={fb_btn} alt="Facebook" />
             <img className='insta_btn' src={insta_btn} alt="Instagram" />
             <img className='whats_btn' src={whats_btn} alt="Whatsapp" />
             <img className='email_btn' src={email_btn} alt="Whatsapp" />
-            <button onClick={toggleTheme}>THEME</button>
+            <input id='checkbox' type='checkbox' onClick={toggleTheme} />
+            <label htmlFor='checkbox' />
           </div>
         </div>
       </div>
       <div className={`header-bottom header-bottom-${theme}`}>
-        <div className='header-bot-name'><span>George Novelli</span></div>
+        <div className='header-bot-name'><span>Joh Novelli</span></div>
         <div className='header-bot-nav'>
           <Link className={`header-bot-nav-link link-${theme}`} to="/">
             Home

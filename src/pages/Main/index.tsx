@@ -1,19 +1,15 @@
-import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from '../../components/Header';
 import './main.css'
 
-function Main() {
-  const [theme, setTheme] = useState<'Light' | 'Dark'>('Light')
-  const [language, setLanguage] = useState<'Pt_br' | 'Eng_us'>('Pt_br')
+type MainProps = {
+  theme: string;
+  language: string;
+  toggleTheme: () => void;
+  toggleLanguage: (language: 'Pt_br' | 'Eng_us') => void;
+}
 
-  function toggleTheme() {
-    setTheme((prevTheme) => (prevTheme === 'Light' ? 'Dark' : 'Light'))
-  }
-
-  function toggleLanguage() {
-    setLanguage((prevTheme) => (prevTheme === 'Pt_br' ? 'Eng_us' : 'Pt_br'))
-  }
+function Main({ theme, language, toggleTheme, toggleLanguage }: MainProps) {
 
   return (
     <div className={`main-${theme}`}>
