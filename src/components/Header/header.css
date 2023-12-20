@@ -107,6 +107,7 @@ input:checked+label::after {
 }
 
 .header-bot-nav-link {
+  color: inherit;
   font-size: 22px;
   margin-right: 20px;
   text-decoration: none;
