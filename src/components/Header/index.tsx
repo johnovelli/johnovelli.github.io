@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import fb_btn from '../../assets/fb_black.png'
 import insta_btn from '../../assets/insta_black.png'

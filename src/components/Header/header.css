@@ -11,6 +11,10 @@
   width: auto;
 }
 
+.header-top-Dark {
+  background-color: #383b3b;
+}
+
 .header-top-btns {
   align-items: center;
   display: flex;
@@ -127,7 +131,7 @@ input:checked+label::after {
 }
 
 .fb_btn {
-  height: 30px;
+  height: 33px;
   margin-right: 7px;
 }
 
@@ -137,11 +141,11 @@ input:checked+label::after {
 }
 
 .whats_btn {
-  height: 33px;
-  margin-right: 12px;
+  height: 29px;
+  margin-right: 11px;
 }
 
 .email_btn {
-  height: 31.5px;
+  height: 29px;
   margin-right: 8px;
 }

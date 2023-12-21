@@ -1,8 +1,14 @@
 import { useNavigate } from 'react-router-dom';
 import './home.css';
 import picture from '../../assets/joh_picture.jpg'
-import html_css_logo from '../../assets/html_css.png'
+import html_logo from '../../assets/html.png'
+import css_logo from '../../assets/css.png'
 import js_logo from '../../assets/js.png'
+import react_logo from '../../assets/react.png'
+import html_logo_dark from '../../assets/html2.png'
+import css_logo_dark from '../../assets/css2.png'
+import js_logo_dark from '../../assets/js2.png'
+import react_logodark from '../../assets/react.png'
 
 type HomeProps = {
   theme: string;
@@ -37,8 +43,10 @@ function Home({ theme, language }: HomeProps) {
           )}
           <button onClick={() => navigate('/contact')}>{language === 'Pt_br' ? <strong>Sobre</strong> : <strong>About</strong>}</button>
           <div className='tools'>
-            <img src={html_css_logo} alt="" />
-            <img className='js' src={js_logo} alt="" />
+            <img className='skill' src={theme === 'Light' ? html_logo : html_logo_dark} alt="" />
+            <img className='skill' src={theme === 'Light' ? css_logo : css_logo_dark} alt="" />
+            <img className='skill' src={theme === 'Light' ? js_logo : js_logo_dark} alt="" />
+            <img className='react' src={react_logo} alt="" />
           </div>
         </div>
         <div className='home-img'>

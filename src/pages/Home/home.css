@@ -50,10 +50,11 @@
   width: 124px;
 }
 
-.home-text .js {
+.home-text .skill {
   height: 91.3px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
+
 
 .tools {
   align-items: end;
