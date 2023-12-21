@@ -8,21 +8,23 @@ body {
 }
 
 .main-Dark {
-  background-color: #242424;
+  background-color: #181616;
 }
 
 .content {
   background-color: white;
 }
 
+.content-Dark {
+  background-color: #acacac;
+}
+
 .main-Light hr {
-  background-color: aqua;
   padding: 0px;
   margin: 0px;
 }
 
 .main-Dark hr {
-  background-color: aqua;
   color: rgb(134, 134, 134);
   padding: 0px;
   margin: 0px;

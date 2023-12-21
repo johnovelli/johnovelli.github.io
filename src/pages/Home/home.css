@@ -1,5 +1,5 @@
 .home-full-Dark {
-  background-color: rgb(80, 80, 80);
+  background-color: #acacac;
   width: auto;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .home-div-Dark {
-  background-color: black;
+  background: linear-gradient(180deg, #1a1a1a, #2c2c2c);
   color: white;
 }
 
@@ -25,9 +25,39 @@
   display: flex;
   flex-direction: column;
   height: 425px;
+  justify-content: space-between;
   margin-left: 20px;
-  text-align: center;
   width: 600px;
+}
+
+.home-text img {
+  height: 90px;
+}
+
+.home-text button {
+  background: linear-gradient(180deg, #747474, #3a3a3a);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgb(59, 59, 59);
+  color: white;
+  height: 38px;
+  width: 125px;
+}
+
+.home-text button:hover {
+  color: rgb(44, 43, 43);
+  height: 37px;
+  width: 124px;
+}
+
+.home-text .js {
+  height: 91.3px;
+  margin-left: 20px;
+}
+
+.tools {
+  align-items: end;
+  display: flex;
 }
 
 .home-img {
@@ -36,7 +66,7 @@
   display: flex;
   height: 425px;
   justify-content: center;
-  width: 480px;
+  width: 430px;
 }
 
 .home-img img {
@@ -48,12 +78,17 @@
 
 h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
   margin-bottom: 15px;
+  padding: 0;
+}
+
+p {
+  margin: 0;
   padding: 0;
 }
 
 strong {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 17px;
+  line-height: 1.5;
+  font-size: 17.5px;
 }

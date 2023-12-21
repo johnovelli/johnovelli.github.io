@@ -67,7 +67,7 @@ input {
 }
 
 input:checked+label {
-  background-color: #242424;
+  background-color: #181818;
 }
 
 input:checked+label::after {
@@ -85,6 +85,7 @@ input:checked+label::after {
 }
 
 .header-bottom-Dark {
+  background-color: #181717;
   color: white;
 }
 

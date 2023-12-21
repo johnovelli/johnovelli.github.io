@@ -16,7 +16,7 @@ type HeaderProps = {
 function Header({ theme, language, toggleTheme, toggleLanguage }: HeaderProps) {
   return (
     <div className={`header ${theme}`}>
-      <div className='header-top'>
+      <div className={`header-top header-top-${theme}`}>
         <div className='header-top-btns'>
           <div className='languages'>
             <button onClick={() => toggleLanguage('Pt_br')}>Pt</button>
@@ -42,7 +42,7 @@ function Header({ theme, language, toggleTheme, toggleLanguage }: HeaderProps) {
             {language === 'Pt_br' ? 'Projetos' : 'Projects'}
           </Link>
           <Link className={`header-bot-nav-link link-${theme}`} to="/about">
-            {language === 'Pt_br' ? 'Sobre Mim' : 'About'}
+            {language === 'Pt_br' ? 'Sobre' : 'About'}
           </Link>
           <Link className={`header-bot-nav-link link-${theme}`} to="/contact">
             {language === 'Pt_br' ? 'Contatos' : 'Contacts'}

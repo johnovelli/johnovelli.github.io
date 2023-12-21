@@ -19,8 +19,8 @@ function Main({ theme, language, toggleTheme, toggleLanguage }: MainProps) {
         toggleTheme={toggleTheme}
         toggleLanguage={toggleLanguage}
       />
-      <hr />
-      <div className='content'>
+      <div className={`content content-${theme}`}>
+        <hr />
         <Outlet />
       </div>
     </div>
