@@ -85,7 +85,7 @@ input:checked+label::after {
   height: 80px;
   margin: auto;
   justify-content: space-between;
-  width: 100%;
+  width: 1200px;
 }
 
 .header-bottom-Dark {
@@ -154,6 +154,7 @@ input:checked+label::after {
   .header-bottom {
     flex-direction: column;
     height: 105px;
+    width: 100%;
   }
 
   .header-bot-nav {
