@@ -3,6 +3,8 @@ import fb_btn from '../../assets/fb_black.png'
 import insta_btn from '../../assets/insta_black.png'
 import whats_btn from '../../assets/whats_black.png'
 import email_btn from '../../assets/email_black.png'
+import pt_br from '../../assets/pt_br.png'
+import eng_us from '../../assets/eng_us.png'
 import './header.css'
 
 type HeaderProps = {
@@ -18,8 +20,12 @@ function Header({ theme, language, toggleTheme, toggleLanguage }: HeaderProps) {
       <div className={`header-top header-top-${theme}`}>
         <div className='header-top-btns'>
           <div className='languages'>
-            <button onClick={() => toggleLanguage('Pt_br')}>Pt</button>
-            <button onClick={() => toggleLanguage('Eng_us')}>En</button>
+            <button className='language-btn' onClick={() => toggleLanguage('Pt_br')}>
+              <img src={pt_br} alt="" />
+            </button>
+            <button className='language-btn' onClick={() => toggleLanguage('Eng_us')}>
+              <img src={eng_us} alt="" />
+            </button>
           </div>
           <div className='btns'>
             <img className='fb_btn' src={fb_btn} alt="Facebook" />

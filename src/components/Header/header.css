@@ -19,7 +19,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 1190px;
+  width: 1150px;
 }
 
 .header-top-btns button {
@@ -28,6 +28,16 @@
 
 .languages {
   margin-left: 10px;
+}
+
+.language-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.language-btn img {
+  height: 30px;
 }
 
 .btns {
@@ -85,7 +95,7 @@ input:checked+label::after {
   height: 80px;
   margin: auto;
   justify-content: space-between;
-  width: 1200px;
+  width: 1150px;
 }
 
 .header-bottom-Dark {
@@ -159,7 +169,7 @@ input:checked+label::after {
   }
 
   .header-bot-nav {
-    margin-left: 32px;
+    margin-left: 34px;
     margin-top: 3px;
     width: 330px;
   }
