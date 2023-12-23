@@ -159,7 +159,7 @@ input:checked+label::after {
   }
 
   .header-bot-nav {
-    margin-left: 20px;
+    margin-left: 32px;
     margin-top: 3px;
     width: 330px;
   }
