@@ -1,17 +1,17 @@
 .home-full-Dark {
-  background-color: #acacac;
+  background-color: #000000;
 }
 
 .home-div {
   align-items: center;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(240, 237, 237);
   border-radius: 20px;
   box-shadow: 0px 5px 15px black;
   display: flex;
   height: 440px;
   justify-content: space-around;
   margin: 10px auto auto auto;
-  width: 1190px;
+  width: 1150px;
 }
 
 .home-div-Dark {
@@ -23,7 +23,7 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  height: 425px;
+  height: 410px;
   justify-content: space-between;
   margin-left: 20px;
   width: 600px;
@@ -62,7 +62,7 @@
   align-items: center;
   border-radius: 20px;
   display: flex;
-  height: 425px;
+  height: 410px;
   justify-content: center;
   width: 430px;
 }
@@ -94,22 +94,23 @@ strong {
   .home-div {
     flex-direction: column;
     height: auto;
-    width: 385px;
+    width: 345px;
   }
 
   .home-text {
     margin-left: 10px;
     height: auto;
-    width: 385px;
+    width: 300px;
   }
 
   .home-text .skill {
-    height: 80px;
+    height: 70px;
+    margin-left: 5px;
     margin-top: 10px;
   }
 
   .home-text img {
-    height: 75px;
+    height: 65px;
   }
 
   .home-text button {
@@ -141,6 +142,6 @@ strong {
   }
 
   .home-img img {
-    height: 350px;
+    height: 310px;
   }
 }
