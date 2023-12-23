@@ -14,7 +14,7 @@ function Home({ theme, language }: HomeProps) {
   const navigate = useNavigate();
 
   return (
-    <div className={`home-full-${theme}`}>
+    <div className={`home-full home-full-${theme}`}>
       <div className={`home-div home-div-${theme}`}>
         <div className='home-text'>
           <InfoText language={language} />

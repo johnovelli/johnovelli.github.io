@@ -12,7 +12,7 @@ type MainProps = {
 function Main({ theme, language, toggleTheme, toggleLanguage }: MainProps) {
 
   return (
-    <div className={`main-${theme}`}>
+    <div className={`main main-${theme}`}>
       <Header
         theme={theme}
         language={language}

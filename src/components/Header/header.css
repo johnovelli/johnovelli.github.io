@@ -45,14 +45,14 @@ label {
   height: 30px;
   position: relative;
   display: block;
-  background-color: #ebebeb;
+  background-color: #181818;
   border-radius: 200px;
   box-shadow: 0px 5px 15px black;
   transition: 0.3s;
 }
 
 label::after {
-  background: linear-gradient(180deg, #ffcc89, #d8860b);
+  background: linear-gradient(180deg, #777, #3a3a3a);
   border-radius: 200px;
   box-shadow: 0px 5px 15px black;
   content: "";
@@ -71,11 +71,11 @@ input {
 }
 
 input:checked+label {
-  background-color: #181818;
+  background-color: #ebebeb;
 }
 
 input:checked+label::after {
-  background: linear-gradient(180deg, #777, #3a3a3a);
+  background: linear-gradient(180deg, #ffcc89, #d8860b);
   left: 55px;
   transform: translateX(-100%);
 }
@@ -151,6 +151,7 @@ input:checked+label::after {
 }
 
 @media only screen and (max-width: 767px) {
+
   .header-bottom {
     flex-direction: column;
     height: 105px;
@@ -158,8 +159,9 @@ input:checked+label::after {
   }
 
   .header-bot-nav {
+    margin-left: 20px;
     margin-top: 3px;
-    width: 340px;
+    width: 330px;
   }
 
   .header-bot-name {
