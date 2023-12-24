@@ -34,16 +34,17 @@
 }
 
 .home-text button {
-  background: linear-gradient(180deg, #747474, #5e5c5c);
+  background: linear-gradient(180deg, #0A3E46, #1036db);
   border: none;
   border-radius: 15px;
   color: white;
   height: 38px;
+  margin-right: 10px;
   width: 125px;
 }
 
 .home-text button:hover {
-  color: rgb(44, 43, 43);
+  box-shadow: 0px 2px 7px #0f6370;
   height: 37px;
   width: 124px;
 }
@@ -69,8 +70,12 @@
 
 .home-img img {
   border-radius: 200px;
-  box-shadow: 3px 5px 15px black;
+  box-shadow: 3px 3px 8px #0A3E46;
   height: 380px;
+}
+
+.home-img img:hover {
+  box-shadow: 3px 3px 8px #0f6370;
 }
 
 h1 {

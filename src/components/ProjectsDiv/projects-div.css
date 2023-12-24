@@ -98,7 +98,7 @@
 
   .project-div {
     align-items: center;
-    height: 400px;
+    height: 410px;
     margin-top: 10px;
     width: 320px;
   }
@@ -109,6 +109,10 @@
 
   .project-div strong {
     font-size: 21px;
+  }
+
+  .project-div button {
+    margin-top: 11px;
   }
 
   .app-desc span {

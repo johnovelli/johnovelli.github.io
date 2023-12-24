@@ -17,8 +17,6 @@ function InfoText({ language }: InfoTextType) {
           <p>
             <strong>
               Vim de um ramo onde o trabalho em equipe, cooperação e comunicação eram fundamentais. Trago essa experiência como meu ponto forte.
-              <br />
-              <br />
             </strong>
           </p>
         </div>
