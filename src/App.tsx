@@ -24,7 +24,7 @@ function App() {
         <Route path="/" element={<Main theme={theme} language={language} toggleTheme={toggleTheme} toggleLanguage={toggleLanguage} />}>
           <Route path="/" element={<Home theme={theme} language={language} />} />
 
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About theme={theme} language={language} />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>

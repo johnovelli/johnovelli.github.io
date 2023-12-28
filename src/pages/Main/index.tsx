@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import './main.css'
 
 type MainProps = {
@@ -12,7 +13,7 @@ type MainProps = {
 function Main({ theme, language, toggleTheme, toggleLanguage }: MainProps) {
 
   return (
-    <div className={`main main-${theme}`}>
+    <main className={`main main-${theme}`}>
       <Header
         theme={theme}
         language={language}
@@ -23,7 +24,8 @@ function Main({ theme, language, toggleTheme, toggleLanguage }: MainProps) {
         <hr />
         <Outlet />
       </div>
-    </div>
+      <Footer />
+    </main>
   );
 }
 

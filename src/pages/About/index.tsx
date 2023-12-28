@@ -1,8 +1,17 @@
 import './about.css';
 
-function About() {
+type AboutProps = {
+  theme: string;
+  language: string;
+}
+
+function About({ theme, language }: AboutProps) {
   return (
-    <h2>About</h2>
+    <div className={`about-full about-full-${theme}`}>
+      <div className={`about-div about-div-${theme}`}>
+
+      </div>
+    </div>
   );
 }
 

@@ -16,7 +16,7 @@ type HeaderProps = {
 
 function Header({ theme, language, toggleTheme, toggleLanguage }: HeaderProps) {
   return (
-    <div className={`header ${theme}`}>
+    <header className={`header ${theme}`}>
       <div className={`header-top header-top-${theme}`}>
         <div className='header-top-btns'>
           <div className='languages'>
@@ -31,7 +31,7 @@ function Header({ theme, language, toggleTheme, toggleLanguage }: HeaderProps) {
             <img className='fb_btn' src={fb_btn} alt="Facebook" />
             <img className='insta_btn' src={insta_btn} alt="Instagram" />
             <img className='whats_btn' src={whats_btn} alt="Whatsapp" />
-            <img className='email_btn' src={email_btn} alt="Whatsapp" />
+            <img className='email_btn' src={email_btn} alt="Email" />
             <input id='checkbox' type='checkbox' onClick={toggleTheme} />
             <label htmlFor='checkbox' />
           </div>
@@ -54,7 +54,7 @@ function Header({ theme, language, toggleTheme, toggleLanguage }: HeaderProps) {
           </Link>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
